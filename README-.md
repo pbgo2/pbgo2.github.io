@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:https://github.com/pbgo2/pbgo2.github.io.git 
 - Live Site URL: https://pbgo2.github.io/ 
 
 ## My process
