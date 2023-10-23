@@ -38,7 +38,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### What I learned
-
+```html
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700">
+```
 ```css
     /* Mobile Styles */
     @media only screen and (min-width: 1px) and (max-width: 375px)  {
@@ -89,7 +92,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Continued development
 
 ### Useful resources
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 
 ## Author
 
