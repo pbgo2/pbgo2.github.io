@@ -40,13 +40,50 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 ```css
-    @font-face {
-      font-family: 'Outfit';
-      src: url('./Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    /* Mobile Styles */
+    @media only screen and (min-width: 1px) and (max-width: 375px)  {
+      .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 50px auto;
+      }
+      svg {
+        height: max(40px, 5vh);
+        width: max(64px, 5vw);
+      }
+      .sedans{
+        border-radius: 10px 10px 0 0;
+      }
+      .luxury{
+        border-radius: 0 0 10px 10px;
+      }
     }
-    body {
-      font-family: 'Outfit', sans-serif;
-     }
+
+    /* Tablet Styles -Desktop Styles*/
+    @media only screen and (min-width: 401px) and (max-width: 1440px) {
+      .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 70vw;
+      height: 100vh;
+      margin: 10px auto;
+      padding: 90px 50px;
+      }
+      svg {
+        height: max(40px, 5vh);
+        width: max(64px, 5vw);
+      }
+      .sedans{
+        border-radius: 10px 0 0 10px;
+      }
+      .luxury{
+        border-radius: 0 10px 10px 0;
+      }
+    }
 ```
 
 ### Continued development
