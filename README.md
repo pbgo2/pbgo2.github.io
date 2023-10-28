@@ -38,55 +38,20 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Mobile-first workflow
 
 ### What I learned
-```html
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:400">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700">
-```
-```css
-    /* Mobile Styles */
-    @media only screen and (min-width: 1px) and (max-width: 375px)  {
-      .container{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 50px auto;
-      }
-      svg {
-        height: max(40px, 5vh);
-        width: max(64px, 5vw);
-      }
-      .sedans{
-        border-radius: 10px 10px 0 0;
-      }
-      .luxury{
-        border-radius: 0 0 10px 10px;
-      }
-    }
 
-    /* Tablet Styles -Desktop Styles*/
-    @media only screen and (min-width: 401px) and (max-width: 1440px) {
-      .container{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 70vw;
-      height: 100vh;
-      margin: 10px auto;
-      padding: 90px 50px;
-      }
-      svg {
-        height: max(40px, 5vh);
-        width: max(64px, 5vw);
-      }
-      .sedans{
-        border-radius: 10px 0 0 10px;
-      }
-      .luxury{
-        border-radius: 0 10px 10px 0;
-      }
-    }
+```css
+   .card-2 .price{
+    position: relative;
+    top: 8px;
+    color:white;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .card-2 span:not(.price)
+  {
+    margin-left: 10px;
+  }
 ```
 
 ### Continued development
