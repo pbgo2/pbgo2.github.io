@@ -28,12 +28,12 @@
     font-size: 0.75rem;
   }
   p {
-    width: 80%;
+    width: 70%;
     text-align: center;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
     font-size: 0.75rem;
-    margin: 20px auto;
+    margin: 0px auto;
     line-height: 25px;
   }
 
@@ -81,8 +81,8 @@
     text-align: center;
     font-weight: 700;
     font-size: 0.75rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     text-decoration: none;
     box-shadow: 0px 10px 20px hsl(224, 23%, 55% , 0.5);
   }
@@ -96,7 +96,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 0.75rem;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-decoration: none;
   }
 
@@ -122,14 +122,22 @@
       background-color:hsl(225, 100%, 94%);
     }
     .container {
+      /* background: url("./images/pattern-background-mobile.svg") no-repeat; */
       background-color:white;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       width: 30%;
-      margin: 80px auto;
+      height: 100vh;
+      margin: 60px auto;
       border-radius: 20px;
       box-shadow: 0px 10px 20px hsl(224, 23%, 55% , 0.5);
+    }
+
+    .i-hero {
+      margin-top: -50px;
+      width: 100%;
+      border-radius: 20px 20px 0 0;
     }
   }
