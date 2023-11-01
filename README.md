@@ -41,18 +41,7 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
 ### What I learned
 
 ```css
-   .card-2 .price{
-    position: relative;
-    top: 8px;
-    color:white;
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
-
-  .card-2 span:not(.price)
-  {
-    margin-left: 10px;
-  }
+   box-shadow: 0px 10px 20px hsl(224, 23%, 55% , 0.5);
 ```
 
 ### Continued development
