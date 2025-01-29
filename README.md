@@ -41,7 +41,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### What I learned
 
 ```css
-   box-shadow: 0px 10px 20px hsl(224, 23%, 55% , 0.5);
+span:has(+span:hover){
+    background: hsl(216, 12%, 54%) ;
+    color: hsl(0, 0%, 100%);
+}
 ```
 
 ### Continued development
